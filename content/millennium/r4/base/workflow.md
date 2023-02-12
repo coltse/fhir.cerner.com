@@ -1,6 +1,6 @@
 ---
-title: Workflow | R4 API
-layout: api
+description: Workflow | R4 API
+inject-note: false
 ---
 
 # Workflow

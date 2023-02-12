@@ -1,6 +1,6 @@
 ---
-title: Bulk Data Access
-layout: api
+description: Bulk Data Access
+inject-note: false
 ---
 
 # Bulk Data Access Overview
@@ -24,9 +24,9 @@ There are several factors that affect the amount of time it takes to complete a 
 * Data transfer to payer database for care quality assessment
 * Submission to reportable disease (or other) registries
 
-<!-- TOC -->
-* TOC
-{:toc}
+
+
+
 
 ## Implemented Exports
 
@@ -40,7 +40,7 @@ _Notes_
 
 ### Service Root URL
 
-The FHIR Bulk Data server uses the [FHIR Base url](http://fhir.cerner.com/millennium/r4/#service-root-url) as the service root url.
+The FHIR Bulk Data server uses the [FHIR Base url](millennium/r4/#service-root-url) as the service root url.
 
 ### Media Types
 
@@ -54,7 +54,7 @@ Please reference the [authorization](https://fhir.cerner.com/authorization/) doc
 
 ## Registering Client Applications
 
-In order to be granted access to the Bulk Data Access API, a **Millennium Bulk Data** SMART application must be registered through Cerner's [code Console](http://fhir.cerner.com/smart/#code-console). See [Authorization](http://fhir.cerner.com/authorization/) for additional details on registering client applications and authorizing with the server.
+In order to be granted access to the Bulk Data Access API, a **Millennium Bulk Data** SMART application must be registered through Cerner's [code Console](smart/#code-console). See [Authorization](authorization/) for additional details on registering client applications and authorizing with the server.
 
 In the case of Group Export, client application developers will need to work with healthcare organizations to identify the available Groups to be exported. Organizations can manage Groups within Ignite Management Tooling.
 
@@ -65,7 +65,7 @@ _Notes_
 
 ### Sandbox
 
-Testing can be done in sandbox for applications that have [authorization](http://fhir.cerner.com/authorization/).
+Testing can be done in sandbox for applications that have [authorization](authorization/).
 
 `https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d`
 

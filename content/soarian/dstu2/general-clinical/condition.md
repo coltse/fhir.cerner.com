@@ -1,11 +1,11 @@
 ---
-title: Condition | Soarian DSTU 2 API
+description: Condition | Soarian DSTU 2 API
 ---
  
 # Condition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

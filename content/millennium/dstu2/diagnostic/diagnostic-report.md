@@ -1,11 +1,11 @@
 ---
-title: DiagnosticReport | DSTU 2 API
+description: DiagnosticReport | DSTU 2 API
 ---
 
 # DiagnosticReport
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

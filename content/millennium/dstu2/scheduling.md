@@ -1,6 +1,6 @@
 ---
-title: Scheduling | DSTU 2 API
-layout: api
+description: Scheduling | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/scheduling.*' %>

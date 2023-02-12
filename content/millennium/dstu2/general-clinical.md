@@ -1,6 +1,6 @@
 ---
-title: General Clinical | DSTU 2 API
-layout: api
+description: General Clinical | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/general-clinical.*' %>

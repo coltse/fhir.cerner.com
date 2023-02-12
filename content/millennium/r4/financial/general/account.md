@@ -1,11 +1,11 @@
 ---
-title: Account | R4 API
+description: Account | R4 API
 ---
 
 # Account
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

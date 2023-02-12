@@ -1,11 +1,11 @@
 ---
-title: Slot | R4 API
+description: Slot | R4 API
 ---
 
 # Slot
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

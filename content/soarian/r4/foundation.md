@@ -1,6 +1,6 @@
 ---
-title: Foundation | R4 API
-layout: api
+description: Foundation | R4 API
+inject-note: false
 ---
 
 <%= render '/soarian/r4/foundation.*' %>

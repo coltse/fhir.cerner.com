@@ -1,6 +1,6 @@
 ---
-title: Medications
-layout: api
+description: Medications
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/medications.*' %>

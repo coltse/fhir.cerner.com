@@ -1,6 +1,6 @@
 ---
-title: Bulk Data | R4 API
-layout: api
+description: Bulk Data | R4 API
+inject-note: false
 ---
 
 <%= render '/soarian/r4/bulk-data.*' %>

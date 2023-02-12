@@ -1,12 +1,12 @@
 ---
-title: DSTU 2
-layout: api
+description: DSTU 2
+inject-note: false
 ---
 
 # DSTU 2 Overview
 
-* TOC
-{:toc}
+
+
 
 ## Schema
 

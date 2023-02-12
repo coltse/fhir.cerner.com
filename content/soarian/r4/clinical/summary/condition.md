@@ -1,11 +1,11 @@
 ---
-title: Condition | R4 API
+description: Condition | R4 API
 ---
 
 # Condition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

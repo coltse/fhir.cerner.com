@@ -1,11 +1,11 @@
 ---
-title: Device | Soarian DSTU 2 API
+description: Device | Soarian DSTU 2 API
 ---
  
 # Device
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

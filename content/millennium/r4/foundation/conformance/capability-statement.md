@@ -1,11 +1,11 @@
 ---
-title: CapabilityStatement | R4 API
+description: CapabilityStatement | R4 API
 ---
 
 # CapabilityStatement
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

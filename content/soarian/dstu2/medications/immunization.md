@@ -1,11 +1,11 @@
 ---
-title: Immunization | Soarian DSTU 2 API
+description: Immunization | Soarian DSTU 2 API
 ---
 
 # Immunization
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

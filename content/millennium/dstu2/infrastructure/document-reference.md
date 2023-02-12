@@ -1,11 +1,11 @@
 ---
-title: DocumentReference | DSTU 2 API
+description: DocumentReference | DSTU 2 API
 ---
 
 # DocumentReference
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

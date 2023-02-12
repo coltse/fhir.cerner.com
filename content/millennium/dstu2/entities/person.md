@@ -1,11 +1,11 @@
 ---
-title: Person | DSTU 2 API
+description: Person | DSTU 2 API
 ---
 
 # Person
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

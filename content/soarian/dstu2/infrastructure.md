@@ -1,6 +1,6 @@
 ---
-title: DocumentReference
-layout: api
+description: DocumentReference
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/infrastructure.*' %>

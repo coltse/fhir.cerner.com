@@ -1,5 +1,5 @@
 ---
-title: Group Export | Bulk Data Access API
+description: Group Export | Bulk Data Access API
 ---
 
 # Bulk Data Access API

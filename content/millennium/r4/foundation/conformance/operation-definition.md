@@ -1,11 +1,11 @@
 ---
-title: OperationDefinition | R4 API
+description: OperationDefinition | R4 API
 ---
 
 # OperationDefinition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

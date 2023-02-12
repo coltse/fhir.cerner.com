@@ -1,6 +1,6 @@
 ---
-title: Diagnostic | DSTU 2 API
-layout: api
+description: Diagnostic | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/diagnostic.*' %>

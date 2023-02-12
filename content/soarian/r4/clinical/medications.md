@@ -1,6 +1,6 @@
 ---
-title: Medications | R4 API
-layout: api
+description: Medications | R4 API
+inject-note: false
 ---
 
 # Medications

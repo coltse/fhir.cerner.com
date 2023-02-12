@@ -1,11 +1,11 @@
 ---
-title: MedicationAdministration | DSTU 2 API
+description: MedicationAdministration | DSTU 2 API
 ---
 
 # MedicationAdministration
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

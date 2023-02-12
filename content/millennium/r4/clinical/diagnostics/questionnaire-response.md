@@ -1,11 +1,11 @@
 ---
-title: QuestionnaireResponse | R4 API
+description: QuestionnaireResponse | R4 API
 ---
 
 # QuestionnaireResponse
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

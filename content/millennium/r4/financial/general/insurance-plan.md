@@ -1,11 +1,11 @@
 ---
-title: InsurancePlan | R4 API
+description: InsurancePlan | R4 API
 ---
 
 # InsurancePlan
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,6 +1,6 @@
 ---
-title: Individuals
-layout: api
+description: Individuals
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/individuals.*' %>

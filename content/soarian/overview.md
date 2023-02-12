@@ -1,13 +1,13 @@
 ---
-title: Overview
-layout: soarian/overview
+description: Overview
+inject-note: false
 ---
 # Overview
 
 This document describes the resources that comprise Cerner’s Soarian Clinicals<sup>®</sup> implementation of the Health Level Seven<sup>®</sup> (HL7)<sup>®</sup> International Fast Healthcare Interoperability Resources<sup>®</sup> (FHIR)<sup>®</sup> standard. If you have any problems or requests, post them to our [developer group](https://groups.google.com/forum/#!forum/cerner-fhir-developers).
 
-* TOC
-{:toc}
+
+
 
 ## Supported Versions
 

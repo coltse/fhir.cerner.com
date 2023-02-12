@@ -1,11 +1,11 @@
 ---
-title: Goal | R4 API
+description: Goal | R4 API
 ---
 
 # Goal
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

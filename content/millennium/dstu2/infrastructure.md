@@ -1,6 +1,6 @@
 ---
-title: Infrastructure | DSTU 2 API
-layout: api
+description: Infrastructure | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/infrastructure.*' %>

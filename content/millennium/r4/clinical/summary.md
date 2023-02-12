@@ -1,6 +1,6 @@
 ---
-title: Summary | R4 API
-layout: api
+description: Summary | R4 API
+inject-note: false
 ---
 
 # Summary

@@ -1,11 +1,11 @@
 ---
-title: ProcedureRequest | DSTU 2 API
+description: ProcedureRequest | DSTU 2 API
 ---
 
 # ProcedureRequest
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

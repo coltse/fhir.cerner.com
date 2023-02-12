@@ -1,11 +1,11 @@
 ---
-title: Coverage | R4 API
+description: Coverage | R4 API
 ---
 
 # Coverage
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

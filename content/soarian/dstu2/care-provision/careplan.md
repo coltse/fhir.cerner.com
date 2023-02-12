@@ -1,11 +1,11 @@
 ---
-title: CarePlan | Soarian DSTU 2 API
+description: CarePlan | Soarian DSTU 2 API
 ---
 
 # CarePlan
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

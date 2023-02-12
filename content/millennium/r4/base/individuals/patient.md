@@ -1,11 +1,11 @@
 ---
-title: Patient | R4 API
+description: Patient | R4 API
 ---
 
 # Patient
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

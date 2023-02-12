@@ -1,11 +1,11 @@
 ---
-title: AllergyIntolerance | DSTU 2 API
+description: AllergyIntolerance | DSTU 2 API
 ---
 
 # AllergyIntolerance
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

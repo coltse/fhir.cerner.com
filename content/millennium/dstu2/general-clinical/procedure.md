@@ -1,11 +1,11 @@
 ---
-title: Procedure | DSTU 2 API
+description: Procedure | DSTU 2 API
 ---
 
 # Procedure
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

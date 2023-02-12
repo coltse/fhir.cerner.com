@@ -1,11 +1,11 @@
 ---
-title: FAQs
+description: FAQs
 ---
 
 # Frequently Asked Questions
 
-* TOC
-{:toc}
+
+
 
 ## FAQs on Cerner's implementation of the HL7<sup>®</sup> FHIR<sup>®</sup> Standard
 

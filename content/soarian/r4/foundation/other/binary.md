@@ -1,11 +1,11 @@
 ---
-title: Binary | R4 API
+description: Binary | R4 API
 ---
 
 # Binary
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

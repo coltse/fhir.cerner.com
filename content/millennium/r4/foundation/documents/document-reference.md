@@ -1,11 +1,11 @@
 ---
-title: DocumentReference | R4 API
+description: DocumentReference | R4 API
 ---
 
 # DocumentReference
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: Encounter | DSTU 2 API
+description: Encounter | DSTU 2 API
 ---
 
 # Encounter
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

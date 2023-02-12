@@ -1,11 +1,11 @@
 ---
-title: Slot | DSTU 2 API
+description: Slot | DSTU 2 API
 ---
 
 # Slot
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

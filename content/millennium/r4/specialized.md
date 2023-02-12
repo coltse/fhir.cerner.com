@@ -1,6 +1,6 @@
 ---
-title: Specialized | R4 API
-layout: api
+description: Specialized | R4 API
+inject-note: false
 ---
 
 <%= render '/millennium/r4/specialized.*' %>

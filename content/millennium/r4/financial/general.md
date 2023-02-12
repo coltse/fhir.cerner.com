@@ -1,6 +1,6 @@
 ---
-title: General | R4 API
-layout: api
+description: General | R4 API
+inject-note: false
 ---
 
 # General

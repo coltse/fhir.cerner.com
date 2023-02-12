@@ -1,11 +1,11 @@
 ---
-title: Conformance | DSTU 2 API
+description: Conformance | DSTU 2 API
 ---
 
 # Conformance
 
-* TOC
-{:toc}
+
+
 
 ## Metadata
 

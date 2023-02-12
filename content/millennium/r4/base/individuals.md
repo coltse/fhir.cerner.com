@@ -1,6 +1,6 @@
 ---
-title: Individuals | R4 API
-layout: api
+description: Individuals | R4 API
+inject-note: false
 ---
 
 # Individuals

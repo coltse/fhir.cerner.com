@@ -1,6 +1,6 @@
 ---
-title: Other | R4 API
-layout: api
+description: Other | R4 API
+inject-note: false
 ---
 
 # Other

@@ -1,6 +1,6 @@
 ---
-title: Support | R4 API
-layout: api
+description: Support | R4 API
+inject-note: false
 ---
 
 # Support

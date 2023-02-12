@@ -1,11 +1,11 @@
 ---
-title: Schedule | R4 API
+description: Schedule | R4 API
 ---
 
 # Schedule
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

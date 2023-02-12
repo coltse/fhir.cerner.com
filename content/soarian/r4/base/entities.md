@@ -1,6 +1,6 @@
 ---
-title: Entities | R4 API
-layout: api
+description: Entities | R4 API
+inject-note: false
 ---
 
 # Entities

@@ -1,11 +1,11 @@
 ---
-title: Procedure | Soarian DSTU 2 API
+description: Procedure | Soarian DSTU 2 API
 ---
 
 # Procedure
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

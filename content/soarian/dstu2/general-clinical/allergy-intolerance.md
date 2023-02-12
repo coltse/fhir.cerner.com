@@ -1,11 +1,11 @@
 ---
-title: AllergyIntolerance | Soarian DSTU 2 API
+description: AllergyIntolerance | Soarian DSTU 2 API
 ---
  
 # AllergyIntolerance  
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

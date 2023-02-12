@@ -1,6 +1,6 @@
 ---
-title: Definitional Artifacts | R4 API
-layout: api
+description: Definitional Artifacts | R4 API
+inject-note: false
 ---
 
 # Definitional Artifacts

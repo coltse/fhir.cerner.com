@@ -1,6 +1,6 @@
 ---
-title: Security | R4 API
-layout: api
+description: Security | R4 API
+inject-note: false
 ---
 
 # Security

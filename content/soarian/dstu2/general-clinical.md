@@ -1,6 +1,6 @@
 ---
-title: General Clinical
-layout: api
+description: General Clinical
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/general-clinical.*' %>

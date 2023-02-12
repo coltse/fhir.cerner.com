@@ -1,11 +1,11 @@
 ---
-title: Encounter | R4 API
+description: Encounter | R4 API
 ---
 
 # Encounter
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: Consent | R4 API
+description: Consent | R4 API
 ---
 
 # Consent
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

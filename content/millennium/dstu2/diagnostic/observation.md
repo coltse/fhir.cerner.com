@@ -1,11 +1,11 @@
 ---
-title: Observation | DSTU 2 API
+description: Observation | DSTU 2 API
 ---
 
 # Observation
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: Immunization | DSTU 2 API
+description: Immunization | DSTU 2 API
 ---
 
 # Immunization
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

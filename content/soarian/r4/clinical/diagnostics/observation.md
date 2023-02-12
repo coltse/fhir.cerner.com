@@ -1,11 +1,11 @@
 ---
-title: Observation | R4 API
+description: Observation | R4 API
 ---
 
 # Observation
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

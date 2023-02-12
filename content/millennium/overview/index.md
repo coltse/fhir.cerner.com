@@ -1,6 +1,6 @@
 ---
-title: Overview
-layout: millennium/overview
+description: Overview
+inject-note: false
 ---
 
 # Overview
@@ -8,8 +8,8 @@ layout: millennium/overview
 This describes the resources that make up Cerner's implementation of the HL7<sup>®</sup> FHIR<sup>®</sup> standard. If 
 you have any problems or requests, please post to our [developer group](https://groups.google.com/d/forum/cerner-fhir-developers).
 
-* TOC
-{:toc}
+
+
 
 ## Supported Versions
 

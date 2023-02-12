@@ -1,11 +1,11 @@
 ---
-title: DocumentReference | Soarian DSTU 2 API
+description: DocumentReference | Soarian DSTU 2 API
 ---
 
 # DocumentReference
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

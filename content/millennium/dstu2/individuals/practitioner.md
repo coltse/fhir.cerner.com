@@ -1,11 +1,11 @@
 ---
-title: Practitioner | DSTU 2 API
+description: Practitioner | DSTU 2 API
 ---
 
 # Practitioner
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

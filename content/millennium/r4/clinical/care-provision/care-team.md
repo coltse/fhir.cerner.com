@@ -1,11 +1,11 @@
 ---
-title: CareTeam | R4 API
+description: CareTeam | R4 API
 ---
 
 # CareTeam
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

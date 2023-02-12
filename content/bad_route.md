@@ -1,6 +1,6 @@
 ---
-title: Cerner | Bad Route
-layout: overview
+description: Cerner | Bad Route
+inject-note: false
 ---
 
 <div class="wrapper feature">

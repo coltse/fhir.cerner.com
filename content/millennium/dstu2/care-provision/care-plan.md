@@ -1,11 +1,11 @@
 ---
-title: CarePlan | DSTU 2 API
+description: CarePlan | DSTU 2 API
 ---
 
 # CarePlan
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

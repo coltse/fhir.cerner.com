@@ -1,5 +1,5 @@
 ---
-title: Common Errors | Soarian DSTU 2 API
+description: Common Errors | Soarian DSTU 2 API
 ---
 
 # CommonErrors

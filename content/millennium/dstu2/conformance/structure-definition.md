@@ -1,11 +1,11 @@
 ---
-title: StructureDefinition | DSTU 2 API
+description: StructureDefinition | DSTU 2 API
 ---
 
 # StructureDefinition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

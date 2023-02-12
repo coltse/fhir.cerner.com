@@ -1,12 +1,12 @@
 ---
-title: FHIR® Service Authorization Specification
-layout: authorization
+description: FHIR® Service Authorization Specification
+inject-note: false
 ---
 
 # FHIR<sup>®</sup> Service Authorization Specification v1.0 #
 ------------------------------------------------------------------------
-* TOC
-{:toc}
+
+
 
 ## Overview ##
 

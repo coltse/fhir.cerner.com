@@ -1,11 +1,11 @@
 ---
-title: Device | R4 API
+description: Device | R4 API
 ---
 
 # Device
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: OperationOutcome | R4 API
+description: OperationOutcome | R4 API
 ---
 
 # OperationOutcome
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: MedicationStatement | Soarian DSTU 2 API
+description: MedicationStatement | Soarian DSTU 2 API
 ---
  
 # MedicationStatement
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

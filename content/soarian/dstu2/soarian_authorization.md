@@ -1,5 +1,5 @@
 ---
-title: Authorization | DSTU 2 API
+description: Authorization | DSTU 2 API
 ---
 
 # Authorization 
@@ -11,8 +11,8 @@ All API calls require secure authorization.  Secure authorization for all API ca
   
 In order to access data from Soarian via the API, an Application has to first acquire an access token from the API's authorization server. For detailed information on OAuth 2.0 refer to [Authorization] [authorization-OAuth]
 
-* TOC
-{:toc}
+
+
 
 ## Requesting Authorization on Behalf of a User
 

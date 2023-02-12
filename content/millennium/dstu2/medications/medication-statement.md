@@ -1,11 +1,11 @@
 ---
-title: MedicationStatement | DSTU 2 API
+description: MedicationStatement | DSTU 2 API
 ---
 
 # MedicationStatement
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

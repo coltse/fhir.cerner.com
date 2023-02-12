@@ -1,6 +1,6 @@
 ---
-title: OpenID Connect
-layout: authorization
+description: OpenID Connect
+inject-note: false
 ---
 
 # Authorization Server OpenID Connect Support

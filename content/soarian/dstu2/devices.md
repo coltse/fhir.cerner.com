@@ -1,6 +1,6 @@
 ---
-title: Devices
-layout: api
+description: Devices
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/devices.*' %>

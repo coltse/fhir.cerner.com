@@ -1,12 +1,12 @@
 ---
-title: Application Registration Prerequisites / Developer Guide
-layout: authorization
+description: Application Registration Prerequisites / Developer Guide
+inject-note: false
 ---
 
 # Application Registration Prerequisites / Developer Guide
 
-* TOC
-{:toc}
+
+
 
 
 ## Audience
@@ -111,7 +111,7 @@ You can use the following commands and tools to check the DNS TXT records:
 #### Inspect your TLS Certificate
 TLS certificates are used to protect both the end users' information while it's in transfer, and to authenticate the website's organization identity to ensure users are interacting with legitimate website owners.
 
-To follow the security best practices you should utilize TLS implementations that support current IETF best practices for TLS (please refer to [this documentation](http://fhir.cerner.com/authorization/tls-guidance/) for more details). Cerner RECOMMENDS you utilize public testing tools, such as [Qualsys SSL Labs](http://ssllabs.com/), to verify proper functioning of your https implementation.
+To follow the security best practices you should utilize TLS implementations that support current IETF best practices for TLS (please refer to [this documentation](authorization/tls-guidance/) for more details). Cerner RECOMMENDS you utilize public testing tools, such as [Qualsys SSL Labs](http://ssllabs.com/), to verify proper functioning of your https implementation.
 
 Please follow one of below approaches to check TLS Certificates for your application:
 
@@ -262,4 +262,4 @@ Use the steps outlined above to check the certificate being returned from the UR
 [code Program]: https://code.cerner.com/ "The Cerner Open Developer Experience Program"
 [code Validation Program]: https://code.cerner.com/apiaccess "The Cerner Open Developer Experience validation of applications"
 [code console]: https://code-console.cerner.com/ "The Cerner Open Developer Experience to develop and test applications"
-[code TLS Guidance]: http://fhir.cerner.com/authorization/tls-guidance/ "The Cerner Open Developer Experience TLS Guidance"
+[code TLS Guidance]: authorization/tls-guidance/ "The Cerner Open Developer Experience TLS Guidance"

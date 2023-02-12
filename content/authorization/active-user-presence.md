@@ -1,6 +1,6 @@
 ---
-title: Active User Presence Extension
-layout: authorization
+description: Active User Presence Extension
+inject-note: false
 ---
 
 # HL7 SMART App Launch Active User Presence Extension

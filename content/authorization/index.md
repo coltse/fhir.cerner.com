@@ -1,12 +1,12 @@
 ---
-title: Authorization
-layout: authorization
+description: Authorization
+inject-note: false
 ---
 
 # Authorization #
 ------------------------------------------------------------------------
-* TOC
-{:toc}
+
+
 
 ## Overview ##
 

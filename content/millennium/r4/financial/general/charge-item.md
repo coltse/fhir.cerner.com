@@ -1,12 +1,12 @@
 ---
-title: ChargeItem | R4 API
+description: ChargeItem | R4 API
 ---
 
 # ChargeItem
 
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

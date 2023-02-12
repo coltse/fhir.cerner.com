@@ -1,11 +1,11 @@
 ---
-title: Organization | R4 API
+description: Organization | R4 API
 ---
 
 # Organization
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

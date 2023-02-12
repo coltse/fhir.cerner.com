@@ -1,6 +1,6 @@
 ---
-title: TLS Usage Guidance
-layout: authorization
+description: TLS Usage Guidance
+inject-note: false
 ---
 
 # Guidance for the use of TLS with Cerner Ignite

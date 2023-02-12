@@ -1,11 +1,11 @@
 ---
-title: FinancialTransaction | R4 API
+description: FinancialTransaction | R4 API
 ---
 
 # FinancialTransaction
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

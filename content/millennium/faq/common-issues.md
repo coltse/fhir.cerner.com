@@ -1,6 +1,6 @@
 ---
-title: Common Issues
-layout: faq
+description: Common Issues
+inject-note: false
 ---
 
 The topics below are the most common issues that we identify when
@@ -9,8 +9,8 @@ each of these before submitting an app for validation.
 
 # Common Issues
 
-* TOC
-{:toc}
+
+
 
 ## API Usage
 

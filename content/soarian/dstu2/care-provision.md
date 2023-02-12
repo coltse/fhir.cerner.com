@@ -1,6 +1,6 @@
 ---
-title: Care Provision
-layout: api
+description: Care Provision
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/care-provision.*' %>

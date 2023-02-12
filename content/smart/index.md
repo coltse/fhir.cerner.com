@@ -1,17 +1,12 @@
 ---
-title: SMART
-layout: smart
+description: SMART® implementation details for Oracle Cerner
+inject-note: false
 ---
 
-# SMART<sup>®</sup> #
+# Using SMART® with Oracle Cerner #
 ------------------------------------------------------------------------
-* TOC
-{:toc}
-
-## General ##
-
-### Introduction ###
-The SMART<sup>®</sup> (Substitutable Medical Apps and Reusable Technology) platform defines a specification for an electronic health record (EHR) to safely and securely open other applications with context. These SMART applications are commonly web applications but may also be native mobile applications and that use HL7® FHIR® [standard](https://www.hl7.org/fhir/) to read and write data from the EHR. With SMART, Cerner can embed a SMART app in the EHR. Cerner believes that SMART applications will be a major user of FHIR resources. We will also support FHIR access through mobile SMART applications, as those specifications emerge from the SMART [web site](http://smartplatforms.org/).
+## Introduction ##
+The SMART® (Substitutable Medical Apps and Reusable Technology) platform defines a specification for an electronic health record (EHR) to safely and securely open other applications with context. These SMART applications are commonly web applications but may also be native mobile applications and that use [HL7® FHIR® standard](https://www.hl7.org/fhir/) to read and write data from the EHR. With SMART, Cerner embeds a SMART app within the EHR. We also support FHIR access through mobile SMART applications, as those specifications emerge from [](http://smartplatforms.org/).
 
 ### SaaS Model ###
 
@@ -21,17 +16,17 @@ Cerner expects the majority of SMART apps to be provided to clients in a SaaS (s
 
 At a high level, provider facing applications must receive the following authorizations:
 
-1. Cerner must validate and register every SMART app. As part of this process, Cerner validates the usage of FHIR resources and operations (for example, READ and WRITE).  Cerner will not validate the usage of FHIR resources for direct to consumer apps.
+1. Cerner must validate and register every SMART app. As part of this process, Cerner validates the usage of FHIR resources and operations (for example, READ and WRITE). Cerner will not validate the usage of FHIR resources for direct to consumer apps.
 2. Each client decides whether they want to allow a SMART app to run on a domain-by-domain basis.
 3. Each client decides which users and roles can access the SMART app.
 
-To learn more about general SMART on FHIR app authorization process, see the SMART [App Authorization Guide](http://hl7.org/fhir/smart-app-launch/#smart-authorization-and-resource-retrieval).  For implementation information regarding Cerner's Authorization server, see the [Authorization page](http://fhir.cerner.com/authorization/) at fhir.cerner.com.
+To learn more about general SMART on FHIR app authorization process, see  "SMART authorization and resource retrieval" in [SMART App Launch](http://hl7.org/fhir/smart-app-launch/2021May/).  For implementation information regarding Cerner's Authorization server, see [Authorization](authorization/).
 
 ### Access Points ###
 
 Currently, end users can open SMART apps in the following ways:
 
-- Providers can access SMART apps from the *Cerner Millennium PowerChart* TOC (table of contents, a column of options that open different PowerChart components) and the Organizer view
+- Providers can access SMART apps from the *Cerner Millennium PowerChart (table of contents, a column of options that open different PowerChart components) and the Organizer view
 - Providers can access SMART apps from an *MPages* component that is embedded in *PowerChart*
 - Consumers can access SMART apps from HealtheLife to view their patient information
 - Providers/Consumers can access SMART apps from a stand-alone provider/patient facing SMART apps
@@ -81,7 +76,7 @@ your SMART app with React and have not yet decided on a loading indicator style.
 
 For provider-facing apps running from within the Cerner Millennium EHR, the only embedded browsers we currently support are Internet Explorer (IE) and Edge. The embedded browser controls we use are [IWebBrowser2 C++ interface](https://msdn.microsoft.com/en-us/library/aa752127(v=vs.85).aspx) for IE and [WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/) for Edge both developed by Microsoft. The minimum version of IE we support is IE10. The latest supported browser varies based on the version of the browser that is currently installed at each Cerner client site. Although it is no longer supported by Microsoft, many of our clients still use IE10, especially clients who host their own system. We highly suggest that you code your app for IE10 for validation. If you must use IE11 or Edge for your app, please note that you may struggle if you plan on deploying across our entire client base.
 
-NOTE: Applications that will embed in *MPages* Workflow or Summary must function correctly with IE10.  The *MPages* 6.x platform currently depends on other components that require IE10 to run.  This means that even though there is a newer version of IE in Citrix, *MPages* 6.x will render the application using IE10.
+**Note:** Applications that will embed in *MPages* Workflow or Summary must function correctly with IE10.  The *MPages* 6.x platform currently depends on other components that require IE10 to run.  This means that even though there is a newer version of IE in Citrix, *MPages* 6.x will render the application using IE10.
 Even though we have support for Edge some clients may still be using IE due to delayed upgrades, or app compatibility issues. Therefore, it is recommended that the embedded SMART app uses functions that work correctly for both IE and Edge at this time.
 
 Microsoft offers a free IE10 VM and newer on various versions of Windows for application testing at [https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/).
@@ -90,20 +85,20 @@ Microsoft offers a free IE10 VM and newer on various versions of Windows for app
 
 Cerner understands that it's counter-intuitive to prompt the user for their credential when launching a SMART application within *PowerChart*, where the user is already logged into the system. With that in mind, we designed the system to provide a good SSO experience for the users when any SMART application is launched within *PowerChart*. As a developer, you can help us give the users the best experience possible by following the following guideline when developing your apps to be embedded within *PowerChart*.
 
-- Due to technical limitations (see '[No Shared Cookies](#no-shared-cookies)' section below), apps should use the same embedded browser (no pop-up) to authorize and launch when embedded in *PowerChart*. We still recommend using a pop-up for authorization and authentication in other workflows outside of *PowerChart*.
+- Due to technical limitations—see the section [No Shared Cookies](#no-shared-cookies))—apps should use the same embedded browser instead of a pop-up to authorize and launch when embedded in *PowerChart*. For authorization and authentication in other workflows outside of *PowerChart*, we do recommend using a pop-up.
 
-- If you'd like to flex your app based on the current execution context (embedded vs stand-alone mode), please see this [section](#embedded-in-powerchart) for more information.
+- To flex your app based on the current execution context (embedded vs stand-alone mode), see the section [Embedded in *PowerChart*?](#embedded-in-powerchart) for more information.
 
 ### Embedded Browser Control ###
 
-There have been a lot of questions and interest around what embedded browser control Cerner's implementation uses. In this section, you'll learn more about the embedded browser control. The actual browser controls that we use are  [IWebBrowser2 C++ interface](https://msdn.microsoft.com/en-us/library/aa752127(v=vs.85).aspx) for IE and [WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/) for Edge both developed by Microsoft. Please take a look at the documentation for more information. With this embedded browser control, there are some limitations compared to the stand-alone IE or Edge. See below for these limitations.
+There have been a lot of questions and interest around what embedded browser control Cerner's implementation uses. In this section, you'll learn more about the embedded browser control. The actual browser controls that we use are [IWebBrowser2 C++ interface](https://msdn.microsoft.com/en-us/library/aa752127(v=vs.85).aspx) for IE and [WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/) for Edge both developed by Microsoft. Please take a look at the documentation for more information. With this embedded browser control, there are some limitations compared to the stand-alone IE or Edge:
 
 
 #### No Shared Cookies ####
 
 If your app uses a pop-up window for the authorization flow to allow users to authenticate with the system, that is fine for web and stand-alone apps.  However, if the app is going to be embedded within *PowerChart*, browser cookies will *NOT* be shared between the embedded browser and the newly popped-up browser window. What does this mean? It means that single-sign-on (SSO) will not work; the user would need to manually type in their credential when prompted, which is not the best experience for the users. It's best to perform all navigations and redirects using the embedded browser without needing to pop-up a new browser while embedding in *PowerChart*.  To learn more about the technical details of IE inner workings, please visit this [page](https://blogs.msdn.microsoft.com/ie/2008/03/11/ie8-and-loosely-coupled-ie-lcie/) and this [page](https://blogs.msdn.microsoft.com/ie/2010/03/04/tab-isolation/).
 
-If you'd like to flex your app based on the current execution context (embedded vs stand-alone mode), please see this [section](#embedded-in-powerchart) for more information.
+If you'd like to flex your app based on the current execution context (embedded vs stand-alone mode), please see the section [Embedded in *PowerChart*?](#embedded-in-powerchart) for more information.
 
 #### HTML5 Session Storage ####
 
@@ -204,6 +199,6 @@ Direct to consumers apps may also be launched from our patient portal, HealtheLi
 
 ## Additional Resources ##
 
-- [Cerner Millennium FHIR API Documentation](http://fhir.cerner.com/millennium/dstu2/)
-- [Cerner Authorization Documentation](http://fhir.cerner.com/authorization/)
+- [Cerner Millennium FHIR API Documentation](millennium/dstu2/)
+- [Cerner Authorization Documentation](authorization/)
 - [Cerner FHIR Developers Google Group](https://groups.google.com/forum/#!forum/cerner-fhir-developers)

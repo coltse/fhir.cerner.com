@@ -1,11 +1,11 @@
 ---
-title: DiagnosticReport | Soarian DSTU 2 API
+description: DiagnosticReport | Soarian DSTU 2 API
 ---
 
 # DiagnosticReport
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

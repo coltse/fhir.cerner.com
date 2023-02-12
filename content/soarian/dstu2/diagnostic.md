@@ -1,6 +1,6 @@
 ---
-title: Diagnostic
-layout: api
+description: Diagnostic
+inject-note: false
 ---
 
 <%= render '/soarian/dstu2/diagnostic.*' %>

@@ -1,6 +1,6 @@
 ---
-title: Base | R4 API
-layout: api
+description: Base | R4 API
+inject-note: false
 ---
 
 <%= render '/millennium/r4/base.*' %>

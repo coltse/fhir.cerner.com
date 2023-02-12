@@ -1,11 +1,11 @@
 ---
-title: Group Export | R4 API
+description: Group Export | R4 API
 ---
 
 # Group Export
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

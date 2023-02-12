@@ -1,11 +1,11 @@
 ---
-title: OperationDefinition | DSTU 2 API
+description: OperationDefinition | DSTU 2 API
 ---
 
 # OperationDefinition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

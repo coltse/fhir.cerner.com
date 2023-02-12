@@ -1,11 +1,11 @@
 ---
-title: RelatedPerson | DSTU 2 API
+description: RelatedPerson | DSTU 2 API
 ---
 
 # RelatedPerson
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

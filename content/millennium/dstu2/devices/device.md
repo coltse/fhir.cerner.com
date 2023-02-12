@@ -1,11 +1,11 @@
 ---
-title: Device | DSTU 2 API
+description: Device | DSTU 2 API
 ---
 
 # Device
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

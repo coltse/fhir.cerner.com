@@ -1,11 +1,11 @@
 ---
-title: MedicationAdministration | R4 API
+description: MedicationAdministration | R4 API
 ---
 
 # MedicationAdministration
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

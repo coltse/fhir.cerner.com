@@ -1,11 +1,11 @@
 ---
-title: StructureDefinition | R4 API
+description: StructureDefinition | R4 API
 ---
 
 # StructureDefinition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

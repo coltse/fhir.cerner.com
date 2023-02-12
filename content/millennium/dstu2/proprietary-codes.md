@@ -1,11 +1,11 @@
 ---
-title: Proprietary Codes | DSTU2 API
+description: Proprietary Codes | DSTU2 API
 ---
 
 # Proprietary Codes
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

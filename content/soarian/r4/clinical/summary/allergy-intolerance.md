@@ -1,11 +1,11 @@
 ---
-title: AllergyIntolerance | R4 API
+description: AllergyIntolerance | R4 API
 ---
 
 # AllergyIntolerance
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: Schedule | DSTU 2 API
+description: Schedule | DSTU 2 API
 ---
 
 # Schedule
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

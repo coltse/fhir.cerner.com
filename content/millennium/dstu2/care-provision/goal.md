@@ -1,11 +1,11 @@
 ---
-title: Goal | DSTU 2 API
+description: Goal | DSTU 2 API
 ---
 
 # Goal
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

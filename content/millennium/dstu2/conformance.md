@@ -1,6 +1,6 @@
 ---
-title: Conformance | DSTU 2 API
-layout: api
+description: Conformance | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/conformance.*' %>

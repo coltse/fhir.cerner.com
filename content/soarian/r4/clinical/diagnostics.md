@@ -1,6 +1,6 @@
 ---
-title: Diagnostics | R4 API
-layout: api
+description: Diagnostics | R4 API
+inject-note: false
 ---
 
 # Diagnostics

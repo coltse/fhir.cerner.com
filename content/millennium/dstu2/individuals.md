@@ -1,6 +1,6 @@
 ---
-title: Individuals | DSTU 2 API
-layout: api
+description: Individuals | DSTU 2 API
+inject-note: false
 ---
 
 <%= render '/millennium/dstu2/individuals.*' %>

@@ -1,11 +1,11 @@
 ---
-title: Communication | R4 API
+description: Communication | R4 API
 ---
 
 # Communication
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

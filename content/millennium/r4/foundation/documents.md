@@ -1,6 +1,6 @@
 ---
-title: Documents | R4 API
-layout: api
+description: Documents | R4 API
+inject-note: false
 ---
 
 # Documents

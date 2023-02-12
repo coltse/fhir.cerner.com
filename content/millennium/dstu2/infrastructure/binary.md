@@ -1,11 +1,11 @@
 ---
-title: Binary | DSTU 2 API
+description: Binary | DSTU 2 API
 ---
 
 # Binary
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

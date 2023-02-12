@@ -1,11 +1,11 @@
 ---
-title: Observation | Soarian DSTU 2 API
+description: Observation | Soarian DSTU 2 API
 ---
 
 # Observation
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

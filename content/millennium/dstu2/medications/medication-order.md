@@ -1,11 +1,11 @@
 ---
-title: MedicationOrder | DSTU 2 API
+description: MedicationOrder | DSTU 2 API
 ---
 
 # MedicationOrder
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

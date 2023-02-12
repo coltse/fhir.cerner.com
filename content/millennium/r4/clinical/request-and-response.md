@@ -1,6 +1,6 @@
 ---
-title: Request & Response | R4 API
-layout: api
+description: Request & Response | R4 API
+inject-note: false
 ---
 
 # Request & Response

@@ -1,6 +1,6 @@
 ---
-title: Clinical | R4 API
-layout: api
+description: Clinical | R4 API
+inject-note: false
 ---
 
 <%= render '/soarian/r4/clinical.*' %>

@@ -1,11 +1,11 @@
 ---
-title: Location | R4 API
+description: Location | R4 API
 ---
 
 # Location
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

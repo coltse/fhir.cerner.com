@@ -1,11 +1,11 @@
 ---
-title: CarePlan | R4 API
+description: CarePlan | R4 API
 ---
 
 # CarePlan
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

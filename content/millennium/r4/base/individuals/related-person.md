@@ -1,11 +1,11 @@
 ---
-title: RelatedPerson | R4 API
+description: RelatedPerson | R4 API
 ---
 
 # RelatedPerson
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

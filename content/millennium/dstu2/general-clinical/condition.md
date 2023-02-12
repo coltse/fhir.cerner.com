@@ -1,11 +1,11 @@
 ---
-title: Condition | DSTU 2 API
+description: Condition | DSTU 2 API
 ---
 
 # Condition
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 The Condition resource is used to record details about a patient's problems, diagnoses, or other health matters that are concerning. It is common to capture Conditions during the encounter or visit. This is usually captured both as initial suspected problems and confirmed or refuted problems or diagnoses at the time of discharge. This resource may be referenced by other resources as a "reason" for an action or order such as the reason for ordering a medication or procedure.

@@ -1,6 +1,6 @@
 ---
-title: Care Provision | R4 API
-layout: api
+description: Care Provision | R4 API
+inject-note: false
 ---
 # Care Provision
 

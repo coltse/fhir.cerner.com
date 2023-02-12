@@ -1,11 +1,11 @@
 ---
-title: Contract | DSTU 2 API
+description: Contract | DSTU 2 API
 ---
 
 # Contract
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

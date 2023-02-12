@@ -1,11 +1,11 @@
 ---
-title: DiagnosticReport | R4 API
+description: DiagnosticReport | R4 API
 ---
 
 # DiagnosticReport
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 

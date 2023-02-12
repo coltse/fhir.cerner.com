@@ -1,11 +1,11 @@
 ---
-title: DiagnosticReport | R4 API
+description: DiagnosticReport | R4 API
 ---
 
 # DiagnosticReport
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 The DiagnosticReport resource typically provides a textual set of information and interpretation after performing a diagnostic service or procedure such as a Radiology or Pathology or Cardiology report. A diagnostic report is the set of information that is typically provided by a diagnostic service when investigations are complete. The information includes a mix of atomic results, text reports, images, and codes. The DiagnosticReport resource has information about the diagnostic report itself, and about the subject and, in the case of laboratory tests, the specimen of the report. Report conclusions can be expressed as a simple text blob, structured coded data or as an attached fully formatted report such as a PDF.

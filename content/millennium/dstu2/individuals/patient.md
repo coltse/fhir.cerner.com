@@ -1,11 +1,11 @@
 ---
-title: Patient | DSTU 2 API
+description: Patient | DSTU 2 API
 ---
 
 # Patient
 
-* TOC
-{:toc}
+
+
 
 ## Overview
 
